@@ -1,0 +1,35 @@
+filme = ""
+
+while True:
+    print("\n1 - Cadastrar filme")
+    print("2 - Consultar filme")
+    print("3 - Atualizar filme")
+    print("4 - Excluir filme")
+    print("5 - Sair")
+
+    opcao = input("Escolha: ")
+
+    if opcao == "1":
+        filme = input("Nome do filme: ")
+        print("Filme cadastrado!")
+
+    elif opcao == "2":
+        if filme != "":
+            for i in range(1):
+                print("Filme disponível:", filme)
+        else:
+            print("Nenhum filme cadastrado.")
+
+    elif opcao == "3":
+        filme = input("Novo nome: ")
+        print("Filme atualizado!")
+
+    elif opcao == "4":
+        filme = ""
+        print("Filme excluído!")
+
+    elif opcao == "5":
+        break
+
+    else:
+        print("Opção inválida!")
