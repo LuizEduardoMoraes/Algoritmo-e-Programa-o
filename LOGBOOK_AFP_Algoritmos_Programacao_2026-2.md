@@ -163,11 +163,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ ] Commits no GitHub e painel atualizado
+- [x ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
+- [x ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
+- [x ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
+- [x ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
+- [x ] Commits no GitHub e painel atualizado
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
@@ -182,13 +182,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Conhecer as ferramentas utilizadas nas aulas de programação e organizar repositorios
+2. **O que implementei (commits / arquivos / links):** Conhecer a proposta do crud e comecei a a entender a importância em organizar e manter os códigos salvos
+3. **Objeto(s) de conhecimento mobilizado(s):** Ambiente de desenvolvimento, Organização de arquivos e GitHub
+4. **Desvio ou erro encontrado + causa técnica:** Ainda tenho dificuldade em entender a organização de um projeto e a utilização do GitHub.
+5. **Decisão de ajuste + fonte:** É praticar a criação e organização de arquivos python e aprender aprender a utilizar o GitHub para guardar o histórico de projeto
+6. **Feedback recebido e o que mudei:** registar aqui a orientação real recebida pelo professor e pelos amigos
+7. **Próximo passo:** Definir o aplicativo utilizado no crud e começar a desenvolver um programa utilizando variáveis e entrada de dados
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -213,19 +213,19 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
-4. _…_ *(opcional)*
+1. ( int, float e str), utilizados para armazenar informações
+2. Entrada e saída de da dados com input e print.
+3. Estruturas condicionais (if, elif e else), utilizados para tomar decisões.
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. Tenho dificuldade em entender como organizar os dados recebidos pelo usuário e armazená-los corretamente.
+2. Ainda preciso aprender a validar entradas para evitar que o usuário informe dados de tipos incorretos.
+3. Tenho dificuldade em organizar as condições e os laços de repetição para controlar o funcionamento de um programa.
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+> Acredito que os problemas de um sistema CRUD podem acontecer quando os dados são cadastrados sem validação ou quando as condições do programa não verificam corretamente as informações.Também considero que erros nos tipos de dados podem prejudicar as operações de cadastro, consulta, atualização e exclusão.
+
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
@@ -234,30 +234,34 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+- **Referência 1:** Documentação oficial do Python — Tutorial, seção de introdução à programação. [Python — Introdução informal](<https://docs.python.org/3/tutorial/introduction.html?highlight=list+append&utm_source=chatgpt.com>).      — **Contribuição:** Ajudou a compreender como funcionam variáveis, tipos de dados, operadores, entrada e saída de informações e estruturas básicas de programação.
+- **Referência 2:**- : Allen B. Downey — Think Python, 3ª edição. [Think Python — livro gratuito](<https://allendowney.github.io/ThinkPython/index.html?utm_source=chatgpt.com>).
+ — **Contribuição:** O material apresenta os fundamentos da programação, ajudando a entender como organizar instruções, trabalhar com variáveis e desenvolver o raciocínio lógico.
+
+
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
-> _…_
+> Depois de aprofundar meus conhecimentos, percebi que os problemas de um CRUD não acontecem somente por erros no cadastro. Também podem ocorrer durante a consulta, atualização e exclusão dos dados. Entendi que é importante utilizar variáveis com tipos adequados, validar as informações recebidas pelo input() e utilizar estruturas condicionais para evitar operações incorretas.
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
 | RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
 |---|---|---|
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
+| Horas de estudo de Python | 6 horas | Revisar variáveis, tipos de dados, operadores e condicionais. |
+| Casos de teste | 10 testes | Verificar entradas válidas, vazias e incorretas. |
+| Arquivos Python | 2 arquivos | Separar o programa principal e os testes iniciais, caso necessário. |
+| Dados de teste | 10 registros | Simular informações para verificar o funcionamento do sistema. |
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Aprender a armazenar informações em variáveis e receber dados do usuário utilizando Python.
+2. **O que implementei (commits / arquivos / links):** Trabalhei com conceitos de variáveis, input() e print(), além de conhecer os tipos int, float e str.
+3. **Objeto(s) de conhecimento mobilizado(s):** - Variáveis e atribuição de valores.
+- Tipos primitivos: inteiro (int), decimal (float) e texto (str).
+4. **Desvio ou erro encontrado + causa técnica:** Uma dificuldade que preciso verificar nos meus exercícios é entender que o input() recebe os dados como texto. Por isso, quando preciso realizar cálculos, é necessário converter a informação utilizando int() ou float().
+5. **Decisão de ajuste + fonte:** Praticar a conversão dos dados antes de realizar operações matemáticas, verificando se o tipo da variável corresponde à operação que será executada. 
+6. **Feedback recebido e o que mudei:** Registrar a devolutiva real recebida durante a aula ou nos exercícios. 
+7. **Próximo passo:** Estudar os operadores matemáticos e relacionais para começar a construir condições dentro dos programas.
 
 ## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
 
@@ -270,13 +274,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como os operadores e a lógica de programação permitem construir decisões e resolver problemas.
+2. **O que implementei (commits / arquivos / links):** Estudei os operadores utilizados em Python e como organizar a sequência de instruções de um programa.
+3. **Objeto(s) de conhecimento mobilizado(s):** Operadores aritméticos: +, -, * e /.
+4. **Desvio ou erro encontrado + causa técnica:** Uma dificuldade que estou desenvolvendo é diferenciar o operador de atribuição = do operador de comparação ==.
+5. **Decisão de ajuste + fonte:** tilizar exercícios simples para testar os operadores e observar os resultados das expressões. Os fluxogramas também ajudam a visualizar a ordem das operações antes de escrever o código. 
+6. **Feedback recebido e o que mudei:** Registrar o feedback real recebido em sala e a alteração realizada a partir dele.
+7. **Próximo passo:** Aprender a utilizar estruturas condicionais para que o programa consiga tomar decisões de acordo com as informações recebidas.
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
@@ -291,13 +295,16 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Aprender a utilizar estruturas condicionais para controlar as decisões de um programa.
+2. **O que implementei (commits / arquivos / links):** Estudei as estruturas if, elif e else, entendendo que elas permitem executar comandos diferentes dependendo das condições estabelecidas.
+3. **Objeto(s) de conhecimento mobilizado(s):** - Estruturas condicionais.
+- Expressões booleanas.
+- Operadores relacionais.
+4. **Desvio ou erro encontrado + causa técnica:** Uma dificuldade que preciso observar nos exercícios é organizar corretamente as condições e a indentação.
+5. **Decisão de ajuste + fonte:** Organizar as condições em uma sequência lógica, utilizando if para a primeira verificação, elif para condições alternativas e else para os casos restantes. 
+6. **Feedback recebido e o que mudei:** Registrar a orientação real recebida e explicar como ela ajudou a melhorar a lógica do programa.
+
+7. **Próximo passo:** Continuar praticando condicionais e aprender a combinar condições com operadores lógicos, preparando-me para desenvolver um CRUD com mais funcionalidades.
 
 ---
 
